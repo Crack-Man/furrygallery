@@ -1,0 +1,282 @@
+body {
+    background-color: #5338D5;
+    background-image: url("../images/background.jpg");
+    background-size: 250% auto;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@font-face {
+    font-family: The Capt;
+    src: url(../font/TheCapt.otf);
+}
+
+A {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:visited {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:active {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.N1 {
+    background-color: #30217E;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 11%;
+    margin: -2% 0% 0% 0%;
+    padding: 1.5% 0 0% 0;
+    font-family: The Capt;
+    font-size: 100px;
+    text-indent: 1%;
+    color: #08e8de;
+    text-align: left;
+}
+.N666 {
+    width: 100%;
+    height: 11%;
+    font-family: impact;
+    font-size: 100px;
+    text-indent: 1%;
+    color: #08e8de;
+    text-align: center;
+}
+
+.N22 {
+    display: flex;
+    background-color: #4b63cc;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 3%;
+}
+
+.N2 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 10%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N222 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 50%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N3 {
+    background-color: #30217E;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 0.4%;
+    font-family: The Capt;
+    font-size: 100px;
+    text-indent: 1%;
+    color: #08e8de;
+    text-align: left;
+}
+
+@media screen and (min-width:241px) and (max-width:480px){
+.N1 {
+    background-color: #30217E;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 6%;
+    margin: -3% 0% 0% 0%;
+    padding: 1.5% 0 0% 0;
+    font-family: The Capt;
+    font-size: 55px;
+    text-indent: 1%;
+    color: #08e8de;
+    text-align: left;
+}
+	
+.N22 {
+    display: flex;
+    background-color: #4b63cc;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 2.3%;
+}
+
+.N2 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 17px;
+    text-align: center;
+    color: #08e8de;
+    width: 20%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N222 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 0%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+}
+
+@media screen and (min-width:481px) and (max-width:720px){
+.N1 {
+    background-color: #30217E;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 9%;
+    margin: -2% 0% 0% 0%;
+    padding: 1.5% 0 0% 0;
+    font-family: The Capt;
+    font-size: 80px;
+    text-indent: 1%;
+    color: #08e8de;
+    text-align: left;
+}	
+	
+.N22 {
+    display: flex;
+    background-color: #4b63cc;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 3%;
+}
+
+.N2 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 20%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N222 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 0%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+}
+
+@media screen and (min-width:721px) and (max-width:1080px){
+.N22 {
+    display: flex;
+    background-color: #4b63cc;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 3%;
+}
+
+.N2 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 15%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N222 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 25%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+}
+
+@media screen and (min-width:1081px) and (max-width:1440px){
+.N22 {
+    display: flex;
+    background-color: #4b63cc;
+    border-bottom: solid 3px #08e8de;
+    width: 100%;
+    height: 3%;
+}
+
+.N2 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 10%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+
+.N222 {
+    display: inline;
+    background-color: #324ab3;
+    border-bottom: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 25px;
+    text-align: center;
+    color: #08e8de;
+    width: 50%;
+    height: 100%;
+    #padding: 0% 3% 0% 3%;
+    #margin: 5% 0% 5% 0%;
+}
+}
+

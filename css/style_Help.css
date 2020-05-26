@@ -1,0 +1,104 @@
+body {
+    background-color: #5338D5;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: The Capt src: url(../font/TheCapt.otf);
+}
+
+A {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.logout {
+    width: 15%;
+    height: 10%;
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    font-family: The Capt;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    /* Выравнивание текста */
+    line-height: 150%;
+    /* Отступы между строками */
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+}
+
+A:visited {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:active {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.OsnovnoyBlock {
+    background-color: rgba(48, 33, 126, 0.95);
+    display: flex;
+    border: solid 3px #08e8de;
+    width: 90%;
+    margin: 0.5% 5% 0.5% 5%;
+}
+
+.NEOsnovnoyBlock {
+    padding: 3% 3% 3% 3%;
+    font-family: The Capt;
+    font-size: 30px;
+    color: #08e8de;
+    text-align: left;
+}
+
+.tags {
+    display: block;
+    overflow: auto;
+    color: #08e8de;
+    height: 100%;
+    width: 100%;
+    border: solid 3px #08e8de;
+    margin: auto;
+}
+
+.sp1 {
+    background-color: rgba(48, 33, 126, 0.95);
+    border: solid 3px #08e8de;
+    display: flex;
+    width: 90%;
+    height: 30%;
+    margin: 0.5% 5% 0.5% 5%;
+}
+
+.sp2 {
+    display: inline;
+    font-family: The Capt;
+    font-size: 30px;
+    text-align: left;
+    color: #08e8de;
+    width: 50%;
+    height: 60%;
+    padding: 3% 3% 3% 3%;
+}
+
+.sp3 {
+    display: inline;
+    font-family: The Capt;
+    font-size: 30px;
+    text-align: left;
+    color: #08e8de;
+    width: 50%;
+    height: 94%;
+    padding: 3% 3% 3% 3%;
+    line-height: 10%;
+}

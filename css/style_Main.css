@@ -1,0 +1,92 @@
+body {
+    background-color: #30217E;
+    background-image: url("../images/background.jpg");
+    background-size: 250% auto;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: The Capt;
+    src: url(../font/TheCapt.otf);
+}
+
+A {
+    color: 02d4cd;
+    text-decoration: none;
+}
+
+A:visited {
+    color: 02d4cd;
+    text-decoration: none;
+}
+
+A:active {
+    color: 02d4cd;
+    text-decoration: none;
+}
+
+.Main {
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    #background-color: #30217E;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+
+.logout {
+    width: 15%;
+    height: 10%;
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    font-family: The Capt;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    /* Выравнивание текста */
+    line-height: 150%;
+    /* Отступы между строками */
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+}
+
+.F1 {
+    background-color: #4b63cc;
+    border: solid 4px #30217E;
+    width: inherit;
+    height: 19.5%;
+    font-family: The Capt;
+    font-size: 100px;
+    text-align: center;
+    /* Выравнивание текста */
+    line-height: 175%;
+    /* Отступы между строками */
+    transition: all 0.4s;
+    color: #08e8de;
+}
+
+.F1:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+.F2 {
+    background-color: rgba(48, 33, 126, 0);
+    #background-color: #30217E;
+
+    width: inherit;
+    height: 15%;
+    margin: 6px 0 6 0;
+    font-family: The Capt;
+    color: #08e8de;
+    font-size: 150px;
+    text-align: center;
+    line-height: 90%;
+}

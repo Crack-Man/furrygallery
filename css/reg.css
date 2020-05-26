@@ -1,0 +1,51 @@
+.p {
+    margin: 5px 5 5 5;
+}
+
+.inputr {
+    margin: 5px 5 5 5;
+    width: 95%;
+    height: 6.2%;
+    font-family: The Capt;
+    font-size: 25px;
+}
+
+.pop_main {
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100%;
+    z-index: 10;
+}
+
+.pop {
+    /* display: none; */
+    position: relative;
+    overflow: auto;
+    margin: auto;
+    top: 25%;
+    width: 25%;
+    height: 33%;
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    font-family: The Capt;
+    color: white;
+    font-size: 40px;
+    z-index: 10;
+}
+
+.pop_reg {
+    position: relative;
+    margin: auto;
+    top: 5px;
+    width: 50%;
+    height: 99.8%;
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    font-family: The Capt;
+    color: white;
+    font-size: 40px;
+    z-index: 10;
+}

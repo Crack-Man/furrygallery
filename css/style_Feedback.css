@@ -1,0 +1,59 @@
+﻿body {
+	 background-color: #000;
+	 background-image:url("Backgrounds/07.jpg");
+	 background-size: 100vw 100vh; /* Подогнать под размеры экрана */
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+}
+
+
+.major_parent {
+	margin-left: 1%;
+	margin-right: 2%;
+	padding: 0px 0 50 0;
+}
+.horizontal {
+	padding: 0px 0 0 40 ;
+	margin: 0px 0 10 0;
+}
+
+.horizontalMobile {
+	display: none;
+	padding: 0px 0 20 10 ;
+	margin: 0px 0 10 0;
+}
+
+.content1 {
+	margin: 7 0 0 0;
+	min-width: 100%;
+	min-height: 600px;
+	height: 90%;
+	border: 1px solid #fff;
+	background-color: rgba(0, 0, 0, 0.9);
+	text-transform: uppercase;
+	text-indent: 4%;
+	font-family: Gunplay;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+
+@media screen and (min-width:240px) and (max-width:700px) {
+	.major_parent {
+		width: 90vw;
+	}
+	
+	.content1 {
+		min-width: inherit;
+		max-width: inherit;
+		height: inherit;
+	}
+	
+	.horizontal {
+		display: none;
+	}
+	
+	.horizontalMobile {
+		display: block;
+	}
+}

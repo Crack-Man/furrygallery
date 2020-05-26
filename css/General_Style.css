@@ -1,0 +1,227 @@
+@font-face {
+	font-family: Gunplay;
+	src: url(17770.ttf); /* —сылка */
+}
+
+A{
+    color: grey; /* ÷вет ссылок */
+	text-decoration: none;
+}
+A:visited{
+    color: grey; /* ÷вет посещенных ссылок */
+	text-decoration: none;
+}
+A:active{
+    color: white; /* ÷вет активных ссылок */
+	text-decoration: none;
+}
+   
+   
+img{
+	padding: 0px 0 5 0;
+}
+
+
+img[tabindex="0"] {  
+  cursor: zoom-in;  
+}  
+
+img[tabindex="0"]:focus {  
+  position: fixed; z-index: 10;  
+  top: 0; left: 0; bottom: 0; right: 0;  
+  width: auto; max-width: 100%;  
+  height: auto; max-height: 100%;  
+  margin: auto;  
+  box-shadow: 0 0 200px #000, 0 0 0 1000px rgba(0,0,0,.3);  
+-webkit-box-shadow: 0 0 200px #000, 0 0 0 1000px rgba(0,0,0,.3);  
+-moz-box-shadow: 0 0 200px #000, 0 0 0 1000px rgba(0,0,0,.3);  
+}  
+
+img[tabindex="0"]:focus, /* ѕрив¤зка на возврат фото в привычное состо¤ние после клика на увеличенное */  
+img[tabindex="0"]:focus ~ * {  
+  cursor: zoom-out;  
+  pointer-events: none;  
+}   
+   
+
+ .navBlock:hover A:visited{
+	color: white;
+	text-decoration: none;
+}
+.navigation {
+	position:fixed;
+	top:0px;
+	width: 100%;
+	height: 4%;
+	margin:0 0 0 -8;
+
+	background-color: black;
+	display: flex;
+
+}
+
+.navBlock {
+	margin: auto;
+	min-width: 4%;
+
+	line-height: 100%;
+	font-size: 20px;
+	font-family: Gunplay;
+	text-align: center;
+	color: #999;
+}
+
+.navBlock1 {
+	display: none;
+	padding: 0px 10 0 10;
+	margin: 0 0 0 0;
+	width: 100%;
+	min-width: 255px;
+	height: 11vh;
+	line-height: 60px;
+	font-size: 4.25vh;
+	font-family: Gunplay;
+	text-align: center;
+	font-weight: bold; /* ∆ирный */
+	color: #999;
+}
+
+.navBlock:hover {
+	color: white;
+}
+
+.navBlockMobile {
+	display: none;
+	background-image: url('menu.png');
+	background-size: 150%;
+	background-position: 50% 40%;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	#border: 2px solid white;
+	margin: 20px 0 0 15;
+}
+
+.navBlockMobile1 {
+	display: none;
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+	margin: 150px 0 0 250;
+}
+
+.name {
+
+	width: 100%;
+
+	font-family: Gunplay;
+	font-size: 80px;
+	margin: 3% 0 0 0;
+	text-align: center;
+	color: #fff;
+	text-shadow: black 0 0 10px; 
+}
+
+.parent {
+	width: 80%;
+	margin: auto;
+}
+
+.poloska {
+	margin: 0 0 0 -8;
+	position:fixed;
+	bottom:0px;
+	width: 100%;
+	height: 4%;
+	background-color: black;
+	display: flex;
+	
+}
+.poloska1 {
+	margin: auto;
+	font-family: Gunplay;
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+}
+
+.nadpis {
+	color: #000;
+	text-align: center;
+	font-family: serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.modout {
+	 display: none;
+	 position: fixed;
+	 z-index: 0;
+	 padding-top: 200px;
+	 left: 0;
+	 top: 0;
+	 width: 100vw;
+	 height: 100vh;
+	 overflow: hidden;
+	 background-color: rgba(0,0,0,0.5);
+}
+.main_window {
+	position: absolute;
+	background-color: black;
+	padding: 20px;
+	height: 25vh;
+	border: 1px solid #888;
+	width: 300px;
+	height: 100%;
+	top: 0px;
+}
+.nadpis01 {
+	color: #000;
+	text-align: center;
+	font-family: CaptureIt;
+	font-size: 18pt;
+}
+.krest {
+	 color: #808080;
+	 float: right;
+	 margin: -40vh 25px 0 0;
+	 font-size: 100px;
+	 font-weight: bold;
+	 cursor: pointer;
+}
+
+@media screen and (min-width:0px) and (max-width:1080px) {
+	.name {
+		width: 100vw;
+		min-width: 100vw;
+		margin: 100px 0 0 0;
+		font-size: 40px;
+	}
+	.navigation {
+		position: fixed;
+		background-color: rgba(0,0,0,0.7);
+		top: 0px;
+		height: 75px;
+	}
+	.navBlock {
+		display: none;
+	}
+	.navBlockMobile {
+		display: block;
+	}
+	.navBlockMobile1 {
+		display: block;
+	}
+	.navBlock1 {
+		display: block;
+	}
+	
+	.navBlock1 A {
+		color: white;
+		text-shadow: 1px 1px 5px #000;
+	}
+	
+	.cont {
+		font-size: 10px;
+	}
+}

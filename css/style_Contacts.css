@@ -1,0 +1,62 @@
+body {
+    background-color: #5338D5;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: The Capt src: url(../font/TheCapt.otf);
+}
+
+A {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.logout {
+    width: 15%;
+    height: 10%;
+    border: solid 3px #08e8de;
+    background-color: rgba(48, 33, 126, 0.95);
+    font-family: The Capt;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    /* Выравнивание текста */
+    line-height: 150%;
+    /* Отступы между строками */
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+}
+
+A:visited {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:active {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.OsnovnoyBlock {
+    background-color: rgba(48, 33, 126, 0.95);
+    border: solid 3px #08e8de;
+    width: auto;
+    height: auto;
+    margin: 0.5% 0.7% 0.5% 0.7%;
+    /* ������� ������ �����*/
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    /* ������� ������ ������*/
+    font-family: The Capt;
+    font-size: 25px;
+    #text-indent: 1%;
+    color: #08e8de;
+    text-align: justify;
+}

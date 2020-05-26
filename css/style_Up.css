@@ -1,0 +1,43 @@
+@font-face {
+    font-family: The Capt;
+    src: url(../font/TheCapt.otf);
+}
+
+A {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:visited {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+A:active {
+    color: #08e8de;
+    text-decoration: none;
+}
+
+.UP {
+    display: none;
+    position: fixed;
+    background-color: #30217E;
+    height: 14%;
+    margin: 0.5% 0 0 0.7%;
+    width: 10%;
+    border: solid 3px #08e8de;
+    font-family: The Capt;
+    font-size: 90px;
+    text-align: center;
+    color: #08e8de;
+    line-height: 145%;
+    bottom: 1%;
+    transition: all 0.4s
+}
+
+.UP:hover {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    cursor: pointer;
+}
